@@ -6,6 +6,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 using Mk0.Software.Unzipper.Properties;
+using Mk0.Software.OnlineUpdater;
 
 namespace Mk0.Software.Unzipper
 {
@@ -322,6 +323,12 @@ namespace Mk0.Software.Unzipper
             labelInformation.Visible = true;
             progressBar.Visible = true;
             ExtractGUI(zipfile, targetdir);
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            AutoUpdater.ShowSkipButton = false;
+            AutoUpdater.Start("https://software.mk0.at/update/unzipper.xml");
         }
     }
 }

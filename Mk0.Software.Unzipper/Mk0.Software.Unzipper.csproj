@@ -36,6 +36,9 @@
     <ApplicationIcon>Unzipper.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="OnlineUpdater">
+      <HintPath>..\..\Mk0.Software.OnlineUpdater\Mk0.Software.OnlineUpdater\bin\Debug\OnlineUpdater.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
