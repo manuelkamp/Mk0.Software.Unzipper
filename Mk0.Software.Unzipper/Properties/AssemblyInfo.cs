@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("mk0.at")]
-[assembly: AssemblyProduct("Mk0.Software.Unzipper")]
-[assembly: AssemblyCopyright("Copyright © 2019-202 mk0.at")]
+[assembly: AssemblyProduct("Unzipper")]
+[assembly: AssemblyCopyright("Copyright © 2019-2020 by mk0.at")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
