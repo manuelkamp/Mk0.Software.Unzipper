@@ -328,7 +328,7 @@ namespace Mk0.Software.Unzipper
         private void Main_Load(object sender, EventArgs e)
         {
             AutoUpdater.ShowSkipButton = false;
-            AutoUpdater.Start("https://software.mk0.at/update/unzipper.xml");
+            AutoUpdater.Start("https://www.kmpr.at/update/unzipper.xml");
         }
     }
 }
